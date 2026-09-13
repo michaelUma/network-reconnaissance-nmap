@@ -1,0 +1,25 @@
+
+---
+
+# 2. `notes/host-discovery.txt`
+
+Put your **actual host-discovery Nmap output** here.
+
+If you already saved the output from your scan, **use that actual output**.
+
+Do not manually invent the IP addresses.
+
+At the top you can add:
+
+```text
+Network Reconnaissance - Host Discovery
+========================================
+
+Purpose:
+Identify active hosts within the authorized lab environment.
+
+Tool:
+Nmap 7.99
+
+Command:
+nmap -sn TARGET_IP
