@@ -1,0 +1,12 @@
+Network Reconnaissance - Service Detection
+===========================================
+
+Purpose:
+Identify services and versions associated with discovered open ports.
+
+Tool:
+Nmap 7.99
+
+Command:
+sudo nmap -sV -Pn --top-ports 1000 TARGET_IP
+
