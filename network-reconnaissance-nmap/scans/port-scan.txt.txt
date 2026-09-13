@@ -1,0 +1,15 @@
+Network Reconnaissance - TCP Port Scan
+=======================================
+
+Purpose:
+Identify open TCP ports on the authorized target.
+
+Tool:
+Nmap 7.99
+
+Scan Type:
+TCP SYN scan
+
+Command:
+sudo nmap -sS -Pn --top-ports 1000 TARGET_IP
+
