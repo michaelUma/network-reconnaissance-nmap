@@ -1,0 +1,43 @@
+# Security Recommendations
+
+## 1. Disable Unnecessary Services
+
+Services that are not required for normal system operation should be disabled.
+
+Reducing the number of exposed services reduces the system's attack surface.
+
+## 2. Restrict Network Access
+
+Services should only be accessible from networks and hosts that require them.
+
+Firewall rules should be used to restrict unnecessary inbound connections.
+
+## 3. Secure Administrative Services
+
+Administrative services should not be unnecessarily exposed to untrusted networks.
+
+Where possible, administrative access should be restricted to trusted management systems.
+
+## 4. Keep Services Updated
+
+Operating systems and network services should be regularly patched.
+
+Outdated software may contain known vulnerabilities that attackers can exploit.
+
+## 5. Monitor Open Ports
+
+Network administrators should periodically review exposed ports and services.
+
+Unexpected changes in exposed services should be investigated.
+
+## 6. Apply Least Privilege
+
+Network access should follow the principle of least privilege.
+
+Users and systems should only receive the network access necessary to perform their required functions.
+
+## 7. Perform Regular Security Assessments
+
+Periodic network reconnaissance can help identify newly exposed services and configuration changes.
+
+Regular assessments can help organizations reduce unnecessary attack surface.
